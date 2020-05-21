@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe FastJsonapi::ObjectSerializer do
+RSpec.describe FastJsonapi::ObjectSerializer do
   class Lead
     attr_accessor :id, :provider_lead_ids
 
